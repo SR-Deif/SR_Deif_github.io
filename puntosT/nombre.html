@@ -1,14 +1,64 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Doom</title>
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/css.css">
 </head>
 <body>
-    
+
+    <div id="particles-js"></div>
+    <header class="contenedor header">
+
+
+        <nav class="barra-navegacion">
+            <ul>
+                <li><a href="nombre.html">Nombre</a></li>
+                <li><a href="grados.html">Grados</a></li>
+                <li>
+                    <a href="#" class="logo">
+                        <i class="fas fa-biohazard"></i>
+                    </a>
+                </li>
+                <li><a href="#">Figuras</a>
+                    <ul>
+                        <li><a href="circulo.html">Circulo</a></li>
+                        <li><a href="triangulo.html">Triangulo</a></li>
+                        <li><a href="rectangulo.html">Rectangulo</a></li>
+                        <li><a href="#">Cuadrado</a></li>
+                    </ul>
+                </li>
+                <li><a href="formulario.html">Formulario</a></li>
+            </ul>
+        </nav>
+
+        <div class="contenido-descripcion">
+            <article class="descripcion">
+                <h2>longitud de Caracteres</h2>
+                <input type="text" name="resultado" id="resultado">
+                <a type="button" class="btn-link" onclick="longitud()">Resultado</a>
+                <h2>Letras en Minusculas</h2>
+                <input type="text" name="minuscula" id="minuscula">
+                <a type="button" class="btn-link" onclick="minuscu()">Resultado</a>
+                <h2>Letras en Mayusculas</h2>
+                <input type="text" name="mayusculas" id="mayusculas">
+                <a type="button" class="btn-link" onclick="mayuscu()">Resultado</a>
+                <h2>Primera Letra</h2>
+                <input type="text" name="letra" id="letra">
+                <a type="button" class="btn-link" onclick="letr()">Resultado</a>
+            </article>
+            <div class="img">
+                <img src="../img/840_560.jpeg" alt="">
+            </div>
+        </div>
+
+    </header>
 
     <script src="../js/js.js"></script>
+    <script src="https://kit.fontawesome.com/a2e8d0339c.js"></script>
 </body>
+
 </html>

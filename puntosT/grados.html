@@ -1,18 +1,57 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
+
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Doom</title>
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/css.css">
 </head>
+
 <body>
-    <label for="celsius">Celsius</label>
-    <input type="number" id="celsius" oninput="celafa(), celakel()">
-    <label for="fahrenheit">fahrenheit</label>
-    <input type="number" id="fahrenheit" oninput="faracel(), farakel()">
-    <label for="kelvin">kelvin</label>
-    <input type="number" id="kelvin" oninput="kelafar(), kelacel()">
+
+    <div id="particles-js"></div>
+    <header class="contenedor header">
+
+
+        <nav class="barra-navegacion">
+            <ul class="nav">
+                <li><a href="nombre.html">Nombre</a></li>
+                <li><a href="grados.html">Grados</a></li>
+                <li>
+                    <a href="#" class="logo">
+                        <i class="fas fa-biohazard"></i>
+                    </a>
+                </li>
+                <li><a href="#">Figuras</a>
+                    <ul >
+                        <li><a href="circulo.html">Circulo</a></li><br>
+                        <li><a href="triangulo.html">Triangulo</a></li><br>
+                        <li><a href="rectangulo.html">Rectangulo</a></li><br>
+                        <li><a href="#">Cuadrado</a></li>
+                    </ul>
+                </li>
+                <li><a href="formulario.html">Formulario</a></li>
+            </ul>
+        </nav>
+        <div class="contenido-descripcion">
+            <article class="descripcion">
+                <h2 for="celsius">Celsius</h2><br><br>
+                <input type="number" id="celsius" oninput="celafa(), celakel()"><br><br>
+                <h2 for="fahrenheit">fahrenheit</h2><br><br>
+                <input type="number" id="fahrenheit" oninput="faracel(), farakel()"><br><br>
+                <h2 for="kelvin">kelvin</h2><br><br>
+                <input type="number" id="kelvin" oninput="kelafar(), kelacel()"></a>
+            </article>
+            <div class="img2">
+                <img src="../img/temperature.jpg" >
+            </div>
+        </div>
+    </header>
     <script src="../js/js.js"></script>
+    <script src="https://kit.fontawesome.com/a2e8d0339c.js"></script>
 </body>
+
 </html>
