@@ -191,6 +191,7 @@ body {
     position: relative;
     z-index: 99;
     opacity: .85;
+	background: #000;
 }
 
 .contenedor.header {
@@ -243,11 +244,17 @@ body {
 }
 
 .img2{
-	max-width: 100%;
+	min-width: 10%;
 	max-height: 70%;
 	display: flex;
 	justify-content: flex-end;
 	
+}
+.img3{
+	max-width: 100%;
+	max-height: 70%;
+	display: flex;
+	justify-content: flex-end;
 	margin-left: 30%;
 }
 .contenido-descripcion .titulo {
@@ -303,6 +310,8 @@ body {
 	display: block;
 }
 
-.modal{
-	z-index: 1;
+.contenido2{
+	display: flex;
+	align-items: center;
+	justify-content: center;
 }
