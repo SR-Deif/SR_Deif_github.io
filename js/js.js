@@ -84,14 +84,17 @@ function tri2(){
 }
 //rectangulo
 function rect(){
-var ancho = parseInt.document.getElementById("ancho");
-var altura2 =parseInt.document.getElementById("altura2");
+    let base=parseFloat(prompt('base:'));
+	let altura2=parseFloat(prompt('altura2:'));
+	perimetro = 2* base + 2 * altura2;
+	alert(perimetro + "cm")
+}
 
-    let area;
-
-    area= ancho * ancho;
-    alert(area)
-
+function cuar(){
+    let base2=parseFloat(prompt('base:'));
+	let altura3=parseFloat(prompt('altura3:'));
+	perimetro2 = base2 + altura3;
+	alert(perimetro2 + "cm")
 }
 
 //formulario
